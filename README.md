@@ -1,4 +1,4 @@
-selcukaydintr: proje yapısını analiz et
+https://dolphin666.github.io/docs/#/ Temel Dersler
 
 Workspace: Çalışma alanı bilgileri toplanıyorEn ilgili bilgilere filtreleniyorProjeyi analiz ettim. İşte temel yapısı ve önemli bileşenleri:
 
