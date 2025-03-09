@@ -1,0 +1,20 @@
+{
+    "plugin": {
+        "name": "TurkishASR",
+        "version": "0.1.0",
+        "description": "Türkçe Konuşma Tanıma Plugini"
+    },
+    "audio": {
+        "sampleRate": 16000,
+        "frameSize": 512,
+        "channels": 1
+    },
+    "hardware": {
+        "useGPU": false,
+        "bnpuFreq": 240000000
+    },
+    "log": {
+        "level": "DEBUG",
+        "file": "plugin.log"
+    }
+}

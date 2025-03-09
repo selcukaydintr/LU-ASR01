@@ -1,0 +1,28 @@
+{
+    "test_settings": {
+        "log_level": "DEBUG",
+        "test_timeout": 5000,
+        "memory_threshold": 256,
+        "cpu_threshold": 80,
+        "enable_performance_monitoring": true
+    },
+    "hardware_config": {
+        "uart_baudrate": 115200,
+        "bnpu_clock": 240000000,
+        "dma_buffer_size": 8192
+    },
+    "test_cases": {
+        "audio": {
+            "sample_rate": 16000,
+            "frame_size": 512,
+            "test_files": [
+                "test_data/audio1.raw",
+                "test_data/audio2.raw"
+            ]
+        },
+        "recognition": {
+            "accuracy_threshold": 0.95,
+            "max_latency": 100
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "sdk_test_config": {
+        "unit_tests": {
+            "enabled": true,
+            "timeout_ms": 5000,
+            "test_data_path": "tests/data/"
+        },
+        "performance_tests": {
+            "enabled": true,
+            "memory_threshold_mb": 256,
+            "max_latency_ms": 100,
+            "min_accuracy": 0.95
+        },
+        "turkish_tests": {
+            "enabled": true,
+            "test_cases": [
+                {
+                    "input": "merhaba dünya",
+                    "expected": "merhaba dünya"
+                },
+                {
+                    "input": "nasılsın",
+                    "expected": "nasılsın"
+                }
+            ]
+        }
+    }
+}

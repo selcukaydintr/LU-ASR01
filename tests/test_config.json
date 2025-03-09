@@ -1,0 +1,31 @@
+{
+    "test_settings": {
+        "audio": {
+            "sample_rate": 16000,
+            "frame_size": 512,
+            "mel_bands": 40,
+            "mfcc_coeffs": 13
+        },
+        "bnpu": {
+            "input_size": 13,
+            "hidden_size": 256,
+            "output_size": 29,
+            "num_layers": 2
+        },
+        "test_data": {
+            "audio_files": [
+                "tests/data/test_audio_1.wav",
+                "tests/data/test_audio_2.wav"
+            ],
+            "transcripts": [
+                "merhaba dünya",
+                "test cümlesi"
+            ]
+        }
+    },
+    "performance_thresholds": {
+        "recognition_accuracy": 0.95,
+        "max_latency_ms": 100,
+        "max_memory_mb": 256
+    }
+}
